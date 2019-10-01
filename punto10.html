@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>punto10</title>
+  </head>
+  <body>
+    <h1>VALORES DEL ATRIBUTO TARGET DE LA ETIQUETA "A"</h1>
+    <p>
+      TARGET="_blank": Fuerza que el documento referenciado por el enlace sea
+      mostrado en una nueva ventana del navegador.
+    </p>
+    <a href="https://www.google.com" target="_blank">EJEMPLO_blank</a>
+    <p>
+      TARGET="_self": Usando este valor el documento enlazado será mostrado en
+      el mismo frame o ventana donde está el enlace. Este valor es especialmente
+      útil cuando se ha usado la etiqueta BASE para especificar un frame destino
+      por defecto distinto del actual.
+    </p>
+    <a href="https://www.google.com" target="_self">EJEMPLO_self</a>
+    <p>
+      TARGET="_parent": Este valor provoca que el documento sea mostrado en el
+      FRAMESET padre del frame actual.
+    </p>
+    <a href="https://www.google.com" target="_parent">EJEMPLO_parent</a>
+    <p>
+      TARGET="_top": Fuerza a que el enlace sea mostrado usando todo el espacio
+      de la ventana del navegador destruyendo toda estructura deframes. Este
+      valor debe ser usado siempre que creemos un enlace a una página externa a
+      nuestro sitio web.
+    </p>
+    <a href="https://www.google.com" target="_top">EJEMPLO_top</a>
+    <style>
+      h1 {
+        text-align: center;
+      }
+      a {
+        font-size: 20px;
+        text-decoration: none;
+      }
+    </style>
+  </body>
+</html>

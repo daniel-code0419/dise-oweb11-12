@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Punto6</title>
+  </head>
+  <body>
+    <ol>
+      <li>General reference</li>
+      <li>
+        Culture and the arts
+        <ol>
+          <li>literature</li>
+          <li>Mythology</li>
+          <li>
+            Art and tha arts
+            <ol>
+              <li>Performing arts</li>
+              <li>Visual art</li>
+            </ol>
+          </li>
+          <li>
+            Entertainment and recreation
+            <ol>
+              <li>games</li>
+              <li>Sports</li>
+            </ol>
+          </li>
+          <li>Food and drinks</li>
+          <li>Mass media</li>
+        </ol>
+      </li>
+      <li>
+        Geography and places
+        <ol>
+          <li>
+            Natural geographical features
+            <ol>
+              <li>Land form</li>
+              <li>Bodies of water</li>
+            </ol>
+          </li>
+          <li>
+            Manmade geographical features
+            <ol>
+              <li>Countries and regions</li>
+              <li>Paces</li>
+              <li>Settlements</li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+      <li>History and events</li>
+      <li>Mathematics and logic</li>
+      <li>
+        Natural and physical sciences
+        <ol>
+          <li>Biology</li>
+          <li>Physical Sciences</li>
+        </ol>
+      </li>
+      <li>People</li>
+      <li>Religion and belief systems</li>
+      <li>
+        Society and social sciences
+        <ol>
+          <li>Archaeology</li>
+          <li>Linguistics</li>
+          <li>
+            Social Institutions
+            <ol>
+              <li>Infrastructure</li>
+              <li>Economy and business</li>
+              <li>Education</li>
+              <li>Government and politics</li>
+              <li>Law</li>
+            </ol>
+          </li>
+          <li>War</li>
+        </ol>
+      </li>
+      <li>
+        Technology and applied science
+        <ol>
+          <li>Aerospace</li>
+          <li>Buildings</li>
+          <li>Energy</li>
+          <li>Medicine</li>
+          <li>Maritime</li>
+          <li>Military</li>
+          <li>Technology</li>
+        </ol>
+      </li>
+      <li>Miscenallious</li>
+    </ol>
+
+    <style>
+      ol {
+        counter-reset: item;
+      }
+      li {
+        display: block;
+        color: rgb(53, 53, 194);
+      }
+      li:before {
+        content: counters(item, ".") " ";
+        counter-increment: item;
+        color: rgb(0, 0, 0);
+      }
+    </style>
+  </body>
+</html>
